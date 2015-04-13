@@ -24,9 +24,9 @@
 			value="/WEB-INF/views/uncaughtException.jspx" />
 	</definition>
 
-	<definition name="bootstrap" extends="bootstrap_cover">
+	<definition name="bootstrap_cover" extends="bootstrap/cover">
 		<put-attribute name="body"
-			value="/WEB-INF/views/bootstrap/index.jspx" />
+			value="/WEB-INF/views/bootstrap/cover/index.jspx" />
 	</definition>
 
 </tiles-definitions>

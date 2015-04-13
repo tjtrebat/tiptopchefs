@@ -36,8 +36,8 @@
 
 	<!-- Selects a static view for rendering without the need for an explicit 
 		controller -->
-	<mvc:view-controller path="/" view-name="bootstrap" />
-	<mvc:view-controller path="/roo" view-name="index" />
+	<mvc:view-controller path="/" view-name="bootstrap_cover" />
+	<mvc:view-controller path="/index" view-name="index" />
 	<mvc:view-controller path="/uncaughtException" />
 	<mvc:view-controller path="/resourceNotFound" />
 	<mvc:view-controller path="/dataAccessFailure" />
@@ -64,7 +64,7 @@
 
 	<!-- Store preferred theme configuration in a cookie -->
 	<bean class="org.springframework.web.servlet.theme.CookieThemeResolver"
-		id="themeResolver" p:cookieName="theme" p:defaultThemeName="bootstrap" />
+		id="themeResolver" p:cookieName="theme" p:defaultThemeName="cover" />
 
 	<!-- This bean resolves specific types of exceptions to corresponding logical 
 		- view names for error views. The default behaviour of DispatcherServlet 
