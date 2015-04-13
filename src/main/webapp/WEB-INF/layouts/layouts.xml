@@ -17,11 +17,11 @@
 	</definition>
 
 	<definition name="bootstrap/cover"
-		template="/WEB-INF/layouts/bootstrap/cover/default.jsp">
+		template="/WEB-INF/layouts/bootstrap/default.jsp">
 		<put-attribute name="header"
-			value="/WEB-INF/views/bootstrap/cover/header.jspx" />
+			value="/WEB-INF/views/bootstrap/header.jspx" />
 		<put-attribute name="footer"
-			value="/WEB-INF/views/bootstrap/cover/footer.jspx" />
+			value="/WEB-INF/views/bootstrap/footer.jspx" />
 	</definition>
 
 </tiles-definitions>
