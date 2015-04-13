@@ -228,7 +228,7 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_0 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_0.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_if_0);
-    _jspx_th_spring_url_0.setValue("");
+    _jspx_th_spring_url_0.setValue("/roo");
     _jspx_th_spring_url_0.setVar("url_theme1");
     int[] _jspx_push_body_count_spring_url_0 = new int[] { 0 };
     try {
@@ -417,7 +417,7 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_1 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_1.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_if_0);
-    _jspx_th_spring_url_1.setValue("");
+    _jspx_th_spring_url_1.setValue("/roo");
     _jspx_th_spring_url_1.setVar("url_theme2");
     int[] _jspx_push_body_count_spring_url_1 = new int[] { 0 };
     try {
@@ -606,7 +606,7 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_2 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_2.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_2.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_if_0);
-    _jspx_th_spring_url_2.setValue("");
+    _jspx_th_spring_url_2.setValue("/");
     _jspx_th_spring_url_2.setVar("url_theme3");
     int[] _jspx_push_body_count_spring_url_2 = new int[] { 0 };
     try {

@@ -1,4 +1,5 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -10,7 +11,7 @@
 <spring:url value="/resources/images/favicon.ico" var="favicon" />
 <link rel="SHORTCUT ICON" href="${favicon}" />
 
-<title>Cover Template for Bootstrap</title>
+<title>TipTopChefs.com</title>
 
 <!-- Bootstrap core CSS -->
 <spring:url value="/resources/bootstrap/css/bootstrap.min.css"
@@ -35,33 +36,15 @@
 			<div class="cover-container">
 				<div class="masthead clearfix">
 					<div class="inner">
-						<h3 class="masthead-brand">Cover</h3>
-						<nav>
-							<ul class="nav masthead-nav">
-								<li class="active"><a
-									href="http://getbootstrap.com/examples/cover/#">Home</a></li>
-								<li><a href="http://getbootstrap.com/examples/cover/#">Features</a></li>
-								<li><a href="http://getbootstrap.com/examples/cover/#">Contact</a></li>
-							</ul>
-						</nav>
+						<tiles:insertAttribute name="header" />
 					</div>
 				</div>
 				<div class="inner cover">
-					<h1 class="cover-heading">Cover your page.</h1>
-					<p class="lead">Cover is a one-page template for building
-						simple and beautiful home pages. Download, edit the text, and add
-						your own fullscreen background photo to make it your own.</p>
-					<p class="lead">
-						<a href="http://getbootstrap.com/examples/cover/#"
-							class="btn btn-lg btn-default">Learn more</a>
-					</p>
+					<tiles:insertAttribute name="body" />
 				</div>
 				<div class="mastfoot">
 					<div class="inner">
-						<p>
-							Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>,
-							by <a href="https://twitter.com/mdo">@mdo</a>.
-						</p>
+						<tiles:insertAttribute name="footer" ignore="true" />
 					</div>
 				</div>
 			</div>

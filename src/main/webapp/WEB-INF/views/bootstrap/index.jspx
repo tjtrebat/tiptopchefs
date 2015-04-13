@@ -1,0 +1,20 @@
+<div xmlns:spring="http://www.springframework.org/tags"
+	xmlns:util="urn:jsptagdir:/WEB-INF/tags/util"
+	xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<spring:message var="app_name" code="application_name"
+		htmlEscape="false" />
+	<h1 class="cover-heading">
+		<spring:message var="app_name" code="application_name"
+			htmlEscape="false" />
+		<spring:message code="welcome_h3" arguments="${app_name}" />
+	</h1>
+	<p class="lead">
+		<spring:message code="welcome_text" />
+	</p>
+	<p class="lead">
+		<a href="http://getbootstrap.com/examples/cover/#"
+			class="btn btn-lg btn-default">Learn more</a>
+	</p>
+</div>
