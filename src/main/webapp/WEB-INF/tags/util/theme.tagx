@@ -41,9 +41,9 @@
 				<c:if test="${not empty param.size}">
 					<spring:param name="size" value="${param.size}" />
 				</c:if>
-			</spring:url> <spring:message code="global_theme_bootstrap" var="theme_bootstrap"
+			</spring:url> <spring:message code="global_theme_cover" var="theme_cover"
 				htmlEscape="false" /> <a href="${url_theme3}"
-			title="${fn:escapeXml(theme_bootstrap)}">${fn:escapeXml(theme_bootstrap)}</a>
+			title="${fn:escapeXml(theme_cover)}">${fn:escapeXml(theme_cover)}</a>
 		</span>
 	</c:if>
 </jsp:root>

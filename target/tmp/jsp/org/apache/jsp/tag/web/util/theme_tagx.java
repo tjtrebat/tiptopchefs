@@ -145,8 +145,8 @@ static {
           return true;
         if (_jspx_meth_spring_message_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_if_0, _jspx_page_context))
           return true;
-        out.write("<a title=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${fn:escapeXml(theme_bootstrap)}", java.lang.String.class, (PageContext)this.getJspContext(), _jspx_fnmap_0) + "\" href=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${url_theme3}", java.lang.String.class, (PageContext)this.getJspContext(), null) + "\">");
-        out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${fn:escapeXml(theme_bootstrap)}", java.lang.String.class, (PageContext)this.getJspContext(), _jspx_fnmap_0));
+        out.write("<a title=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${fn:escapeXml(theme_cover)}", java.lang.String.class, (PageContext)this.getJspContext(), _jspx_fnmap_0) + "\" href=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${url_theme3}", java.lang.String.class, (PageContext)this.getJspContext(), null) + "\">");
+        out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${fn:escapeXml(theme_cover)}", java.lang.String.class, (PageContext)this.getJspContext(), _jspx_fnmap_0));
         out.write("</a>");
         out.write("</span>");
         int evalDoAfterBody = _jspx_th_c_if_0.doAfterBody();
@@ -752,8 +752,8 @@ static {
     _jspx_th_spring_message_3.setPageContext(_jspx_page_context);
     _jspx_th_spring_message_3.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_if_0);
     _jspx_th_spring_message_3.setHtmlEscape("false");
-    _jspx_th_spring_message_3.setVar("theme_bootstrap");
-    _jspx_th_spring_message_3.setCode("global_theme_bootstrap");
+    _jspx_th_spring_message_3.setVar("theme_cover");
+    _jspx_th_spring_message_3.setCode("global_theme_cover");
     int[] _jspx_push_body_count_spring_message_3 = new int[] { 0 };
     try {
       int _jspx_eval_spring_message_3 = _jspx_th_spring_message_3.doStartTag();
