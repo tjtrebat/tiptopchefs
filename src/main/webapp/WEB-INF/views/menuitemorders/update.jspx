@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_tiptopchefs_domain_MenuItemOrder" modelAttribute="menuItemOrder" path="/menuitemorders" versionField="Version" z="puxMWGG9MF6PCV1wrHvNGHP+Dsw=">
+        <field:input field="name" id="c_com_tiptopchefs_domain_MenuItemOrder_name" min="2" required="true" z="aRERNIOgwVyCqmzZxNqQD2pGyqw="/>
+        <field:input field="address" id="c_com_tiptopchefs_domain_MenuItemOrder_address" max="30" z="SypX0JJQpTlB7bM1+KgeaP4HMIQ="/>
+        <field:input field="total" id="c_com_tiptopchefs_domain_MenuItemOrder_total" validationMessageCode="field_invalid_number" z="oGhT0k76t+qPyzUd4ACU0q74ZnY="/>
+        <field:datetime dateTimePattern="${menuItemOrder_deliverydate_date_format}" field="deliveryDate" id="c_com_tiptopchefs_domain_MenuItemOrder_deliveryDate" z="WztwIM79tdeg6gMUd3zqHgBhhdM="/>
+        <field:select field="menuItems" id="c_com_tiptopchefs_domain_MenuItemOrder_menuItems" itemValue="id" items="${menuitems}" multiple="true" path="/menuitems" z="EeUqQefNLEkAAfW5O8t2NpwAvTI="/>
+    </form:update>
+</div>

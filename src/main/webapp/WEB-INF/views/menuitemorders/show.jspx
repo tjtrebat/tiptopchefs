@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_tiptopchefs_domain_MenuItemOrder" object="${menuitemorder}" path="/menuitemorders" z="cBbPe0DlAXlfXqz6dXezQmDwn2s=">
+        <field:display field="name" id="s_com_tiptopchefs_domain_MenuItemOrder_name" object="${menuitemorder}" z="5wV1jKxWLS+BrtoMKAAiRlgsR/g="/>
+        <field:display field="address" id="s_com_tiptopchefs_domain_MenuItemOrder_address" object="${menuitemorder}" z="NrbgLebuo5FI0yjBpeIBVbjhRRQ="/>
+        <field:display field="total" id="s_com_tiptopchefs_domain_MenuItemOrder_total" object="${menuitemorder}" z="g1HKC4FEWGgPe4m8PAc8EiEXpz8="/>
+        <field:display date="true" dateTimePattern="${menuItemOrder_deliverydate_date_format}" field="deliveryDate" id="s_com_tiptopchefs_domain_MenuItemOrder_deliveryDate" object="${menuitemorder}" z="kzoBDvbgKBIN5WviS3K9Z2u2ggQ="/>
+        <field:display field="menuItems" id="s_com_tiptopchefs_domain_MenuItemOrder_menuItems" object="${menuitemorder}" z="nq7Zy1FBpOTVWG/wUgFahxR/ijE="/>
+    </page:show>
+</div>
