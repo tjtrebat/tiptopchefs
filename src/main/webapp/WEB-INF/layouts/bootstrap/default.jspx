@@ -6,6 +6,12 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 
+	<!-- Get the user local from the page context (it was set by Spring MVC's locale resolver) -->
+	<c:set var="userLocale">
+		<c:set var="plocale">${pageContext.response.locale}</c:set>
+		<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
+	</c:set>
+
 	<html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

@@ -173,6 +173,53 @@ public final class menu_jspx extends org.apache.jasper.runtime.HttpJspBase
     return false;
   }
 
+  private boolean _jspx_meth_menu_category_2(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  menu:category
+    org.apache.jsp.tag.web.menu.category_tagx _jspx_th_menu_category_2 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.menu.category_tagx.class) : new org.apache.jsp.tag.web.menu.category_tagx();
+    _jspx_th_menu_category_2.setJspContext(_jspx_page_context);
+    _jspx_th_menu_category_2.setParent(_jspx_parent);
+    _jspx_th_menu_category_2.setZ("//eD82nPS8KFipcP7hvzXtrCYX0=");
+    _jspx_th_menu_category_2.setId("c_menu");
+    _jspx_th_menu_category_2.setJspBody(new menu_jspxHelper( 3, _jspx_page_context, _jspx_th_menu_category_2, null));
+    _jspx_th_menu_category_2.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_menu_item_4(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  menu:item
+    org.apache.jsp.tag.web.menu.item_tagx _jspx_th_menu_item_4 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.menu.item_tagx.class) : new org.apache.jsp.tag.web.menu.item_tagx();
+    _jspx_th_menu_item_4.setJspContext(_jspx_page_context);
+    _jspx_th_menu_item_4.setParent(_jspx_parent);
+    _jspx_th_menu_item_4.setZ("OjACSHyi2U4b93Xjexn/NikGhro=");
+    _jspx_th_menu_item_4.setUrl("/menus?form");
+    _jspx_th_menu_item_4.setMessageCode("global_menu_new");
+    _jspx_th_menu_item_4.setId("i_menu_new");
+    _jspx_th_menu_item_4.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_menu_item_5(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  menu:item
+    org.apache.jsp.tag.web.menu.item_tagx _jspx_th_menu_item_5 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.menu.item_tagx.class) : new org.apache.jsp.tag.web.menu.item_tagx();
+    _jspx_th_menu_item_5.setJspContext(_jspx_page_context);
+    _jspx_th_menu_item_5.setParent(_jspx_parent);
+    _jspx_th_menu_item_5.setZ("HEjOIHkg4U44NZ57BPDv1Wl9YzQ=");
+    _jspx_th_menu_item_5.setUrl((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("/menus?page=1&size=${empty param.size ? 10 : param.size}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+    _jspx_th_menu_item_5.setMessageCode("global_menu_list");
+    _jspx_th_menu_item_5.setId("i_menu_list");
+    _jspx_th_menu_item_5.doTag();
+    return false;
+  }
+
   private class menu_jspxHelper
       extends org.apache.jasper.runtime.JspFragmentHelper
   {
@@ -191,6 +238,8 @@ public final class menu_jspx extends org.apache.jasper.runtime.HttpJspBase
         return true;
       if (_jspx_meth_menu_category_1((javax.servlet.jsp.tagext.JspTag) _jspx_parent, _jspx_page_context))
         return true;
+      if (_jspx_meth_menu_category_2((javax.servlet.jsp.tagext.JspTag) _jspx_parent, _jspx_page_context))
+        return true;
       return false;
     }
     public boolean invoke1( JspWriter out ) 
@@ -208,6 +257,15 @@ public final class menu_jspx extends org.apache.jasper.runtime.HttpJspBase
       if (_jspx_meth_menu_item_2((javax.servlet.jsp.tagext.JspTag) _jspx_parent, _jspx_page_context))
         return true;
       if (_jspx_meth_menu_item_3((javax.servlet.jsp.tagext.JspTag) _jspx_parent, _jspx_page_context))
+        return true;
+      return false;
+    }
+    public boolean invoke3( JspWriter out ) 
+      throws Throwable
+    {
+      if (_jspx_meth_menu_item_4((javax.servlet.jsp.tagext.JspTag) _jspx_parent, _jspx_page_context))
+        return true;
+      if (_jspx_meth_menu_item_5((javax.servlet.jsp.tagext.JspTag) _jspx_parent, _jspx_page_context))
         return true;
       return false;
     }
@@ -230,6 +288,9 @@ public final class menu_jspx extends org.apache.jasper.runtime.HttpJspBase
             break;
           case 2:
             invoke2( out );
+            break;
+          case 3:
+            invoke3( out );
             break;
         }
       }

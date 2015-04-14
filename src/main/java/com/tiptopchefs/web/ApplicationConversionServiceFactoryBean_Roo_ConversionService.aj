@@ -18,7 +18,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Menu, String> ApplicationConversionServiceFactoryBean.getMenuToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.tiptopchefs.domain.Menu, java.lang.String>() {
             public String convert(Menu menu) {
-                return "(no displayable fields)";
+                return new StringBuilder().append(menu.getName()).toString();
             }
         };
     }

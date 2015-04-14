@@ -14,7 +14,7 @@ privileged aspect Menu_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager Menu.entityManager;
     
-    public static final List<String> Menu.fieldNames4OrderClauseFilter = java.util.Arrays.asList("");
+    public static final List<String> Menu.fieldNames4OrderClauseFilter = java.util.Arrays.asList("name");
     
     public static final EntityManager Menu.entityManager() {
         EntityManager em = new Menu().entityManager;
