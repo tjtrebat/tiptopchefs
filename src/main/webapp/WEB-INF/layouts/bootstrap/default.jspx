@@ -1,27 +1,33 @@
-<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
-<%@taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
-<html lang="en">
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+	<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="" />
+<meta name="author" content="" />
 <spring:url value="/resources/images/favicon.ico" var="favicon" />
-<link rel="SHORTCUT ICON" href="${favicon}" />
+<link rel="SHORTCUT ICON" href="${favicon}"></link>
 
 <title>TipTopChefs.com</title>
 
 <!-- Bootstrap core CSS -->
 <spring:url value="/resources/bootstrap/css/bootstrap.min.css"
 	var="bootstrap_css" />
-<link href="${bootstrap_css}" rel="stylesheet">
+<link href="${bootstrap_css}" rel="stylesheet"></link>
 
 <!-- Custom styles for this template -->
 <spring:theme code="styleSheet" var="theme_css" />
 <spring:url value="/${theme_css}" var="theme_css_url" />
-<link href="${theme_css_url}" rel="stylesheet">
+<link href="${theme_css_url}" rel="stylesheet"></link>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -63,4 +69,5 @@
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="${ie10_js_url}"></script>
 </body>
-</html>
+	</html>
+</jsp:root>

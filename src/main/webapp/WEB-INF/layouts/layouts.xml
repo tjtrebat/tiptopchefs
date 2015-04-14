@@ -16,8 +16,7 @@
 		<put-attribute name="footer" value="/WEB-INF/views/footer.jspx" />
 	</definition>
 
-	<definition name="bootstrap/cover"
-		template="/WEB-INF/layouts/bootstrap/default.jsp">
+	<definition name="bootstrap/cover" template="/WEB-INF/layouts/bootstrap/default.jspx">
 		<put-attribute name="header"
 			value="/WEB-INF/views/bootstrap/header.jspx" />
 		<put-attribute name="footer"

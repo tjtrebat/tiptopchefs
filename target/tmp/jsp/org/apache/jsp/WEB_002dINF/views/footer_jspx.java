@@ -95,6 +95,16 @@ static {
         return;
       if (_jspx_meth_util_language_0(_jspx_page_context))
         return;
+      if (_jspx_meth_util_language_1(_jspx_page_context))
+        return;
+      if (_jspx_meth_util_language_2(_jspx_page_context))
+        return;
+      if (_jspx_meth_util_language_3(_jspx_page_context))
+        return;
+      if (_jspx_meth_util_language_4(_jspx_page_context))
+        return;
+      if (_jspx_meth_util_language_5(_jspx_page_context))
+        return;
       out.write("</span>");
       if (_jspx_meth_util_theme_0(_jspx_page_context))
         return;
@@ -352,6 +362,71 @@ static {
     _jspx_th_util_language_0.setLocale("en");
     _jspx_th_util_language_0.setLabel("English");
     _jspx_th_util_language_0.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_util_language_1(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  util:language
+    org.apache.jsp.tag.web.util.language_tagx _jspx_th_util_language_1 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.util.language_tagx.class) : new org.apache.jsp.tag.web.util.language_tagx();
+    _jspx_th_util_language_1.setJspContext(_jspx_page_context);
+    _jspx_th_util_language_1.setLocale("de");
+    _jspx_th_util_language_1.setLabel("Deubuilderh");
+    _jspx_th_util_language_1.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_util_language_2(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  util:language
+    org.apache.jsp.tag.web.util.language_tagx _jspx_th_util_language_2 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.util.language_tagx.class) : new org.apache.jsp.tag.web.util.language_tagx();
+    _jspx_th_util_language_2.setJspContext(_jspx_page_context);
+    _jspx_th_util_language_2.setLocale("es");
+    _jspx_th_util_language_2.setLabel("Espanol");
+    _jspx_th_util_language_2.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_util_language_3(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  util:language
+    org.apache.jsp.tag.web.util.language_tagx _jspx_th_util_language_3 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.util.language_tagx.class) : new org.apache.jsp.tag.web.util.language_tagx();
+    _jspx_th_util_language_3.setJspContext(_jspx_page_context);
+    _jspx_th_util_language_3.setLocale("it");
+    _jspx_th_util_language_3.setLabel("Italiano");
+    _jspx_th_util_language_3.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_util_language_4(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  util:language
+    org.apache.jsp.tag.web.util.language_tagx _jspx_th_util_language_4 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.util.language_tagx.class) : new org.apache.jsp.tag.web.util.language_tagx();
+    _jspx_th_util_language_4.setJspContext(_jspx_page_context);
+    _jspx_th_util_language_4.setLocale("nl");
+    _jspx_th_util_language_4.setLabel("Dutch");
+    _jspx_th_util_language_4.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_util_language_5(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  util:language
+    org.apache.jsp.tag.web.util.language_tagx _jspx_th_util_language_5 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.jsp.tag.web.util.language_tagx.class) : new org.apache.jsp.tag.web.util.language_tagx();
+    _jspx_th_util_language_5.setJspContext(_jspx_page_context);
+    _jspx_th_util_language_5.setLocale("sv");
+    _jspx_th_util_language_5.setLabel("Svenska");
+    _jspx_th_util_language_5.doTag();
     return false;
   }
 
